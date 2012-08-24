@@ -15,6 +15,7 @@ namespace AgendaEletronica
     {
         //Variaveis escopo.
         SqlConnection conexao = new SqlConnection(@"Data Source=.\SQLEXPRESS;AttachDbFilename=C:\Projetos-em-CSharp\AgendaEletronica\DataBaseContatos.mdf;Integrated Security=True;User Instance=True");
+
         SqlCommand comando = new SqlCommand();
         SqlDataReader LerDados;
 
